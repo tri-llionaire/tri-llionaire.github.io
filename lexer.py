@@ -1,4 +1,4 @@
-#LEXER 2.19
+#LEXER 2.21
 program = raw_input('TOKENIZE:\n')
 lst = program.split()
 tokens = []
@@ -43,9 +43,10 @@ for i in lst:
         elif i.startswith('raw_input('):
             tokens.append('CMD(INPUT)')
             tokens.append('ID(%s)' % i[10:-1])
-        elif i.startswith('print \''):
+        elif i.startswith('\''):
+            tokens.append('STR(%s)' % i[1:-1])
+        elif i == 'print':
             tokens.append('CMD(PRINT)')
-            tokens.append('STR(%s)' % i[7:-1])
         elif i == '\n':
             tokens.append('NEWLINE')
         else:
