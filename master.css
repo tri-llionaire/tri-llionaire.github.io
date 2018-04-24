@@ -1,9 +1,9 @@
 h1 {
-  font-family: Courier New;
+  font-family: "Courier New";
   color: white;
 }
 p {
-  font-family: Courier New;
+  font-family: "Courier New";
   color: white;
 }
 body {
@@ -11,24 +11,24 @@ body {
 }
 a:link {
 	text-decoration: none;
-	font-family: Courier New;
+	font-family: "Courier New";
 	color: white;
 }
 
 a:visited {
 	text-decoration: none;
-	font-family: Courier New;
+	font-family: "Courier New";
 	color: white;
 }
 
 a:hover {
 	text-decoration: none;
-	font-family: Courier New;
+	font-family: "Courier New";
 	color: white;
 }
 
 a:active {
 	text-decoration: none;
-	font-family: Courier New;
+	font-family: "Courier New";
 	color: white;
 }
