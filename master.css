@@ -10,3 +10,26 @@ a {
 body {
   background-color: black;
 }
+a:download {
+	text-decoration: none;
+	font-family: "Courier New";
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	font-family: "Courier New";
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	font-family: "Courier New";
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	font-family: "Courier New";
+	color: white;
+}
