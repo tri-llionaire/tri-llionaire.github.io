@@ -1,5 +1,5 @@
 #TRIPLE-LANG
-print 'TRIPLE-LANG TRANSPILER V1.1.4\n'
+print 'TRIPLE-LANG TRANSPILER V1.1.6\n'
 while True:
     dic = []
     commands = ['PUT', 'END', 'ADD', 'SUB', 'MUL', 'DIV', 'GET', 'LSS', 'GRT', 'EQL', 'LEQ', 'GEQ']
@@ -75,6 +75,6 @@ while True:
             torun = '%s >= %s' % (dic[0], dic[2])
         exec(torun)
     else:
-        torun = 'ERROR: does not understand command'
+        torun = 'print \'ERROR: does not understand command\''
         exec(torun)
 exit()
