@@ -1,6 +1,6 @@
 body {
-	-webkit-animation: colorchange 2s infinite;
-	animation: colorchange 2s infinite;
+	-webkit-animation: colorchange 1s infinite;
+	animation: colorchange 1s infinite;
 }
 
 
