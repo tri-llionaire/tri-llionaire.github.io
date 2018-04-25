@@ -1,3 +1,21 @@
+body {
+	-webkit-animation: colorchange 2s infinite;
+	animation: colorchange 2s infinite;
+}
+
+
+@-webkit-keyframes colorchange {
+	0%  {background:#fefe00;}
+	50% {background:#000000;}
+	100% {background:#fefe00;}
+}
+
+
+@keyframes colorchange {
+	0%  {background:#fefe00;}
+	50% {background:#000000;}
+	100% {background:#fefe00;}
+
 h1 {
   font-family: "Courier New";
   color: white;
@@ -11,9 +29,9 @@ p {
   font-family: "Courier New";
   color: white;
 }
-body {
+/*body {
   background-color: black;
-  color: white;
+  color: white;*/
 }
 a:link {
 	text-decoration: none;
