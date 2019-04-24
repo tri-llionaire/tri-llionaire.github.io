@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys, hashlib
-ch = raw_input('python utf8scan6.2.6\nchoose an option to convert:\n1: Non-condensed, non-hashed\n2: Condensed, non-hashed\n3: Non-condensed, hashed\n4: Condensed, hashed\n5: Super condensed, hashed\n')
+ch = raw_input('python utf8scan6.2.7\nchoose an option to convert:\n1: Non-condensed, non-hashed\n2: Condensed, non-hashed\n3: Non-condensed, hashed\n4: Condensed, hashed\n5: Super condensed, hashed\n')
 if ch == '3' or ch == '4' or ch == '5':
     hs = raw_input('md5, sha1, sha224, sha256, sha384, or sha512?: ')
 else:
@@ -18,11 +18,11 @@ def output_end(x, r):
 def output_opt(x, r, hs):
     sys.stdout.write(' '*(z-x))
     if hs == 'md5':
-        sys.stdout.write('|\n\\MD5'+((z-3)*'-')+'/\n')
+        sys.stdout.write('|\n\\md5'+((z-3)*'-')+'/\n')
     elif hs == 'sha1':
-        sys.stdout.write('|\n\\SHA1'+((z-4)*'-')+'/\n')
+        sys.stdout.write('|\n\\sha1'+((z-4)*'-')+'/\n')
     else:
-        sys.stdout.write('|\n\\{}'+((r-6)*'-')+'/\n'.format(hs))
+        sys.stdout.write('|\n\\{}'.format(hs)+((z-6)*'-')+'/\n')
 if ch == '1':
     sys.stdout.write('/U8S1'+((z-4)*'-')+'\\\n|')
     for i in bi:
