@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 import sys, hashlib
-ch = raw_input('python utf8scan6.2.5\nchoose an option to convert:\n1: Non-condensed, non-hashed\n2: Condensed, non-hashed\n3: Non-condensed, hashed\n4: Condensed, hashed\n5: Super condensed, hashed\n')
+ch = raw_input('python utf8scan6.2.6\nchoose an option to convert:\n1: Non-condensed, non-hashed\n2: Condensed, non-hashed\n3: Non-condensed, hashed\n4: Condensed, hashed\n5: Super condensed, hashed\n')
 if ch == '3' or ch == '4' or ch == '5':
     hs = raw_input('md5, sha1, sha224, sha256, sha384, or sha512?: ')
 else:
     pass
 st = raw_input('enter your string: ')
-r = len(st)
-z = len(st)
+r = len(st) + 3
+z = len(st) + 5
 bi = ''.join(format(ord(x), 'b') for x in st)
 w = 0
 x = 0
