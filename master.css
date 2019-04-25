@@ -38,3 +38,5 @@ a:active {
 	font-family: "Courier New";
 	color: white;
 }
+
+html, body {font-family:Courier New, sans-serif}
