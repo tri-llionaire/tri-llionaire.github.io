@@ -1,0 +1,219 @@
+IMPROVEMENT SEASON SO FAR
+lower the better in practice, friday analysis, qualifying; higher better in race
+numbers: 0-5 stay, 6-9 round up
+report inaccuracies to computer.addict@yahoo.com please
+
+PRACTICE
+avg practice pts/weekend:   AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     08.00 03.00 06.00
+MERCEDES                    04.66 07.00 05.66
+RED BULL RACING HONDA       11.33 16.33 15.33
+RACING POINT BWT MERCEDES   30.00 30.66 27.00
+SCUDERIA TORO ROSSO HONDA   23.66 27.33 22.00
+ALFA ROMEO RACING FERRARI   22.33 29.66 28.66
+RENAULT                     21.00 20.33 16.66
+HAAS FERRARI                17.33 21.00 29.66
+MCLAREN RENAULT             31.66 19.00 20.66
+WILLIAMS MERCEDES           39.00 39.00 38.33
+
+composite practice pts avg: AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     08.00 05.50 05.66
+MERCEDES                    04.66 05.83 05.77
+RED BULL RACING HONDA       11.33 13.83 14.33
+RACING POINT BWT MERCEDES   30.00 30.33 29.22
+SCUDERIA TORO ROSSO HONDA   23.66 25.50 24.33
+ALFA ROMEO RACING FERRARI   22.33 26.00 26.88
+RENAULT                     21.00 20.66 19.33
+HAAS FERRARI                17.33 19.16 22.66
+MCLAREN RENAULT             31.66 25.33 23.77
+WILLIAMS MERCEDES           39.00 39.00 38.77
+
+
+
+FRIDAY FASTEST LAP
+place/weekend:              AUS-BAH-CHI-AZE-
+FERRARI                     3   1   2
+MERCEDES                    1   2   1
+RED BULL RACING HONDA       2   4   3
+RACING POINT BWT MERCEDES   8   8   8
+SCUDERIA TORO ROSSO HONDA   7   7   7
+ALFA ROMEO RACING FERRARI   4   9   6
+RENAULT                     5   3   4
+HAAS FERRARI                6   5   9
+MCLAREN RENAULT             9   6   5
+WILLIAMS MERCEDES           10  10  10
+
+avg place/weekend:          AUS-BAH-CHI-AZE-
+FERRARI                     3.0 2.0 2.0
+MERCEDES                    1.0 1.5 1.3
+RED BULL RACING HONDA       2.0 3.0 3.0
+RACING POINT BWT MERCEDES   8.0 8.0 8.0
+SCUDERIA TORO ROSSO HONDA   7.0 7.0 7.0
+ALFA ROMEO RACING FERRARI   4.0 6.5 6.3
+RENAULT                     5.0 4.0 4.0
+HAAS FERRARI                6.0 5.5 6.7
+MCLAREN RENAULT             9.0 7.5 6.7
+WILLIAMS MERCEDES           10  10  10
+
+time behind leader/weekend: AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     0.873 0.000 0.027
+MERCEDES                    0.000 0.603 0.000
+RED BULL RACING HONDA       0.800 0.879 0.221
+RACING POINT BWT MERCEDES   1.411 1.870 1.449
+SCUDERIA TORO ROSSO HONDA   1.333 1.247 1.304
+ALFA ROMEO RACING FERRARI   0.972 2.242 1.221
+RENAULT                     0.974 0.823 0.766
+HAAS FERRARI                1.214 1.154 1.458
+MCLAREN RENAULT             1.533 1.171 0.811
+WILLIAMS MERCEDES           3.853 3.058 2.791
+
+avg time behind leader:     AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     0.873 0.437 0.300
+MERCEDES                    0.000 0.302 0.201
+RED BULL RACING HONDA       0.800 0.440 0.633
+RACING POINT BWT MERCEDES   1.411 1.641 1.577
+SCUDERIA TORO ROSSO HONDA   1.333 1.290 1.295
+ALFA ROMEO RACING FERRARI   0.972 1.607 1.478
+RENAULT                     0.974 0.899 0.854
+HAAS FERRARI                1.214 1.184 1.275
+MCLAREN RENAULT             1.533 1.352 1.172
+WILLIAMS MERCEDES           3.853 3.456 3.234
+
+
+
+FRIDAY PACE DEFICIT
+place/weekend:              AUS-BAH-CHI-AZE
+FERRARI                     4   3   4
+MERCEDES                    1   1   1
+RED BULL RACING HONDA       3   2   3
+RACING POINT BWT MERCEDES   5   7   6
+SCUDERIA TORO ROSSO HONDA   9   4   2
+ALFA ROMEO RACING FERRARI   2   NA  7
+RENAULT                     6   6   9
+HAAS FERRARI                7   5   5
+MCLAREN RENAULT             8   8   8
+WILLIAMS MERCEDES           10  9   10
+
+avg place/weekend:          AUS-BAH-CHI-AZE-
+FERRARI                     4.0 3.5 3.7
+MERCEDES                    1.0 1.0 1.0
+RED BULL RACING HONDA       3.0 2.5 2.7
+RACING POINT BWT MERCEDES   5.0 6.0 6.0
+SCUDERIA TORO ROSSO HONDA   9.0 6.5 5.0
+ALFA ROMEO RACING FERRARI   2.0 2.0 4.5
+RENAULT                     6.0 6.0 7.0
+HAAS FERRARI                7.0 6.0 5.7
+MCLAREN RENAULT             8.0 8.0 8.0
+WILLIAMS MERCEDES           10  9.5 9.7
+
+time behind leader/weekend: AUS-BAH-CHI-AZE-
+FERRARI                     1.0 0.5 0.7
+MERCEDES                    0.0 0.0 0.0
+RED BULL RACING HONDA       1.0 0.5 0.4
+RACING POINT BWT MERCEDES   1.3 1.8 1.5
+SCUDERIA TORO ROSSO HONDA   1.5 1.3 0.2
+ALFA ROMEO RACING FERRARI   0.9 NA  1.5
+RENAULT                     1.4 1.8 1.6
+HAAS FERRARI                1.4 1.4 1.2
+MCLAREN RENAULT             1.4 2.4 1.5
+WILLIAMS MERCEDES           3.4 2.5 2.2
+
+avg time behind leader:     AUS-BAH-CHI-AZE-
+FERRARI                     1.0 0.7 0.7
+MERCEDES                    0.0 0.0 0.0
+RED BULL RACING HONDA       1.0 0.7 0.6
+RACING POINT BWT MERCEDES   1.3 1.5 1.5
+SCUDERIA TORO ROSSO HONDA   1.5 1.4 1.0
+ALFA ROMEO RACING FERRARI   0.9 0.9 1.2
+RENAULT                     1.4 1.6 1.6
+HAAS FERRARI                1.4 1.4 1.3
+MCLAREN RENAULT             1.4 1.9 1.8
+WILLIAMS MERCEDES           3.4 2.9 2.7
+
+
+
+QUALIFYING
+pts/weekend:                AUS-BAH-CHI-AZE-
+FERRARI                     8   3   7
+MERCEDES                    3   7   3
+RED BULL RACING HONDA       21  18  11
+RACING POINT BWT MERCEDES   26  32  15
+SCUDERIA TORO ROSSO HONDA   28  27  29
+ALFA ROMEO RACING FERRARI   21  25  31
+RENAULT                     23  28  32
+HAAS FERRARI                13  14  19
+MCLAREN RENAULT             26  17  28
+WILLIAMS MERCEDES           39  39  35
+
+pts avg from season:        AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     08.00 05.50 06.00
+MERCEDES                    03.00 05.00 04.33
+RED BULL RACING HONDA       21.00 19.50 16.66
+RACING POINT BWT MERCEDES   26.00 29.00 24.33
+SCUDERIA TORO ROSSO HONDA   28.00 27.50 28.00
+ALFA ROMEO RACING FERRARI   21.00 23.00 25.66
+RENAULT                     23.00 25.50 27.66
+HAAS FERRARI                13.00 13.50 15.33
+MCLAREN RENAULT             26.00 21.50 23.66
+WILLIAMS MERCEDES           39.00 39.00 37.66
+
+best lap to pole:           AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     0.704 0.000 0.301
+MERCEDES                    0.000 0.324 0.000
+RED BULL RACING HONDA       0.834 0.886 0.542
+RACING POINT BWT MERCEDES   2.046 1.890 1.752
+SCUDERIA TORO ROSSO HONDA   2.150 1.647 1.689
+ALFA ROMEO RACING FERRARI   1.828 1.156 1.872
+RENAULT                     2.054 1.622 1.411
+HAAS FERRARI                1.340 0.891 1.603
+MCLAREN RENAULT             1.818 0.947 1.976
+WILLIAMS MERCEDES           3.874 3.893 3.706
+
+avg best lap to pole:       AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     0.704 0.352 0.335
+MERCEDES                    0.000 0.162 0.108
+RED BULL RACING HONDA       0.834 0.860 0.754
+RACING POINT BWT MERCEDES   2.046 1.968 1.896
+SCUDERIA TORO ROSSO HONDA   2.150 1.898 1.829
+ALFA ROMEO RACING FERRARI   1.828 1.492 1.619
+RENAULT                     2.054 1.838 1.696
+HAAS FERRARI                1.340 1.115 1.278
+MCLAREN RENAULT             1.818 1.382 1.580
+WILLIAMS MERCEDES           3.874 3.883 3.824
+
+RACE
+pts/weekend:                AUS-BAH-CHI-AZE-
+FERRARI                     22  26  25
+MERCEDES                    44  43  43
+RED BULL RACING HONDA       15  16  21
+RACING POINT BWT MERCEDES   2   1   4
+SCUDERIA TORO ROSSO HONDA   1   2   1
+ALFA ROMEO RACING FERRARI   4   6   2
+RENAULT                     6   0   6
+HAAS FERRARI                8   0   0
+MCLAREN RENAULT             0   8   0
+WILLIAMS MERCEDES           0   0   0
+
+pts avg from season:        AUSTR-BAHRA-CHINA-AZERB-
+FERRARI                     22.00 24.00 24.33
+MERCEDES                    44.00 43.50 43.33
+RED BULL RACING HONDA       15.00 15.50 17.33
+RACING POINT BWT MERCEDES   02.00 01.50 03.00
+SCUDERIA TORO ROSSO HONDA   01.00 01.50 01.00
+ALFA ROMEO RACING FERRARI   04.00 05.00 03.66
+RENAULT                     06.00 03.00 02.66
+HAAS FERRARI                08.00 04.00 02.66
+MCLAREN RENAULT             00.00 04.00 03.00
+WILLIAMS MERCEDES           00.00 00.00 00.00
+
+pts total to point:         AUS-BAH-CHI-AZE-
+MERCEDES                    44  87  130
+FERRARI                     22  48  73
+RED BULL RACING HONDA       15  31  52
+ALFA ROMEO RACING FERRARI   4   10  12
+RENAULT                     6   6   12
+MCLAREN RENAULT             0   8   8
+HAAS FERRARI                8   8   8
+RACING POINT BWT MERCEDES   2   3   7
+SCUDERIA TORO ROSSO HONDA   1   3   4
+WILLIAMS MERCEDES           0   0   0
