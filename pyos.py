@@ -4,9 +4,9 @@ import time
 starttime = time.time()
 print '[002] [{:.08f}] boot: loading version'.format(time.time() - starttime)
 _counter = 3
-_version = '1.3.3'
-_release = '#23'
-_build = '77'
+_version = '1.3.4'
+_release = '#24'
+_build = '80'
 _date = '05.06.19'
 print '[{:03d}] [{:.8f}] pyos {}.{} ({})'.format(_counter, time.time() - starttime, _version, _build, _date)
 _counter += 1
@@ -16,6 +16,7 @@ import random, sys, hashlib
 print '[{:03d}] [{:.8f}] boot: Loading t-hash import'.format(_counter, time.time() - starttime)
 _counter += 1
 def itsh(i_s, i_key):
+    #t-hash mini 1.2.0-pyos
     i_char = {' ': '169', '$': '157', '(': '144', ',': '156', '0': '140', '4': '160', '8': '180', '<': '149', '@': '142', 'D': '110', 'H':'138', 'L': '106', 'P': '167', 'T': '126', 'X': '195', '\\': '124', '`': '151', 'd': '159', 'h': '114', 'l': '119', 'p': '139', 't': '174', 'x': '103', '|': '138', '#': '192', "'": '186', '+': '163', '/': '176', '3': '191', '7': '100', ';': '191', '?': '115', 'C': '121', 'G': '154', 'K': '161', 'O': '172', 'S': '197', 'W': '162', '[': '182', '_': '114', 'c': '159', 'g': '101', 'k': '159', 'o': '134', 's': '121', 'w': '123', '{': '185', '"': '193', '&': '118', '*': '172', '.': '106', '2': '135', '6': '119', ':': '123', '>': '190', 'B': '114', 'F': '180', 'J': '119', 'N': '121', 'R': '119', 'V': '188', 'Z': '102', '^': '133', 'b': '105', 'f': '190', 'j': '113', 'n': '139', 'r': '162', 'v': '152', 'z': '181', '~': '185', '!': '118', '%': '121', ')': '137', '-': '99', '1': '158', '5': '147', '9': '161', '=': '109', 'A': '106', 'E': '179', 'I': '151', 'M': '195', 'Q': '111', 'U': '100', 'Y': '101', ']': '185', 'a': '174', 'e': '172', 'i': '154', 'm': '198', 'q': '145', 'u': '130', 'y': '170', '}':'148'}
     if i_key <= 100 and i_key >= 2:
         if len(i_s) > 32:
@@ -30,7 +31,7 @@ def itsh(i_s, i_key):
                 i_n = i_char[' '] + i_n
         return hex(int(i_n)/i_key)[2:-1]
     else:
-        pass
+        print 'pyos: pysh: scan: t-hash: invalid key'
 print '[{:03d}] [{:.8f}] boot: Loading utf8scan6'.format(_counter, time.time() - starttime)
 _counter += 1
 def scan():
@@ -206,7 +207,7 @@ def scan():
             s_x += 1
         s_output_opt(s_x, s_r, s_hs)
     else:
-        print 'unknown option'
+        print 'pyos: pysh: scan: unknown option'
 print '[{:03d}] [{:.8f}] boot: Loading countriesoftheworld'.format(_counter, time.time() - starttime)
 _counter += 1
 def cotw():
@@ -679,22 +680,36 @@ print '[{:03d}] [{:.8f}] boot: Loading t-hash mini'.format(_counter, time.time()
 _counter += 1
 def thsh():
     t_char = {' ': '169', '$': '157', '(': '144', ',': '156', '0': '140', '4': '160', '8': '180', '<': '149', '@': '142', 'D': '110', 'H':'138', 'L': '106', 'P': '167', 'T': '126', 'X': '195', '\\': '124', '`': '151', 'd': '159', 'h': '114', 'l': '119', 'p': '139', 't': '174', 'x': '103', '|': '138', '#': '192', "'": '186', '+': '163', '/': '176', '3': '191', '7': '100', ';': '191', '?': '115', 'C': '121', 'G': '154', 'K': '161', 'O': '172', 'S': '197', 'W': '162', '[': '182', '_': '114', 'c': '159', 'g': '101', 'k': '159', 'o': '134', 's': '121', 'w': '123', '{': '185', '"': '193', '&': '118', '*': '172', '.': '106', '2': '135', '6': '119', ':': '123', '>': '190', 'B': '114', 'F': '180', 'J': '119', 'N': '121', 'R': '119', 'V': '188', 'Z': '102', '^': '133', 'b': '105', 'f': '190', 'j': '113', 'n': '139', 'r': '162', 'v': '152', 'z': '181', '~': '185', '!': '118', '%': '121', ')': '137', '-': '99', '1': '158', '5': '147', '9': '161', '=': '109', 'A': '106', 'E': '179', 'I': '151', 'M': '195', 'Q': '111', 'U': '100', 'Y': '101', ']': '185', 'a': '174', 'e': '172', 'i': '154', 'm': '198', 'q': '145', 'u': '130', 'y': '170', '}':'148'}
-    t_key = int(raw_input('t-hash mini 1.2.0-pyos\nenter a key (2-100): '))
-    if t_key <= 100 and t_key >= 2:
-        t_s = raw_input('enter string: ')
-        if len(t_s) > 32:
-            t_s = t_s[:33]
-        else:
-            t_s = t_s + (' '*(32-len(t_s)))
-        t_n = ''
-        for t_a in t_s:
-            if t_a in t_char:
-                t_n = t_char[t_a] + t_n
+    t_which = raw_input('t-hash, md5, sha1, sha224, sha256, sha384, or sha512? ')
+    if t_which == 't-hash':
+        t_key = int(raw_input('enter a key (2-100): '))
+        if t_key <= 100 and t_key >= 2:
+            t_s = raw_input('enter string: ')
+            if len(t_s) > 32:
+                t_s = t_s[:33]
             else:
-                t_n = t_char[' '] + t_n
-        print hex(int(t_n)/t_key)[2:-1]
+                t_s = t_s + (' '*(32-len(t_s)))
+            t_n = ''
+            for t_a in t_s:
+                if t_a in t_char:
+                    t_n = t_char[t_a] + t_n
+                else:
+                    t_n = t_char[' '] + t_n
+            print hex(int(t_n)/t_key)[2:-1]
+        else:
+            pass
+    elif t_which == 'sha1':
+        print hashlib.sha1(t_s).hexdigest()
+    elif t_which == 'sha224':
+        print hashlib.sha224(t_s).hexdigest()
+    elif t_which == 'sha256':
+        print hashlib.sha256(t_s).hexdigest()
+    elif t_which == 'sha384':
+        print hashlib.sha384(t_s).hexdigest()
+    elif t_which == 'sha512':
+        print hashlib.sha512(t_s).hexdigest()
     else:
-        pass
+        print 'pyos: pysh: hash: invalid hash'
 print '[{:03d}] [{:.8f}] boot: Setting up login info'.format(_counter, time.time() - starttime)
 _counter += 1
 users = ['root', 'temp']
@@ -789,7 +804,7 @@ if entered == 'start':
                     elif x == 'hash':
                         thsh()
                     elif x == 'help':
-                        print 'exit: exit pyos\ncd $: change directory to $\nmd $: create directory $\nls: list contents of current directory\npd: print working directory (useless)\ncf $: create file $\ncl: clear screen\nhelp: show this\ncotw: start countriesoftheworld\nscan: start utf8scan6\nhash: start t-hash mini'
+                        print 'exit: exit pyos\ncd $: change directory to $\nmd $: create directory $\nls: list contents of current directory\npd: print working directory (useless)\ncf $: create file $\ncl: clear screen\nhelp: show this\ncotw: start countriesoftheworld\nscan: start utf8scan6\nhash: start hash converter'
                     elif x == 'cl':
                         sys.stdout.write('\x1b[2J\x1b[H')
                     else:
