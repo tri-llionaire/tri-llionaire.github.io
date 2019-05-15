@@ -4,17 +4,54 @@ import time
 starttime = time.time()
 print '[002] [{:.08f}] boot: loading version'.format(time.time() - starttime)
 _counter = 3
-_version = '1.3.4'
-_release = '#24'
-_build = '80'
+_version = '1.3.6'
+_release = '#26'
+_build = '93'
 _date = '05.06.19'
 print '[{:03d}] [{:.8f}] pyos {}.{} ({})'.format(_counter, time.time() - starttime, _version, _build, _date)
 _counter += 1
-print '[{:03d}] [{:.8f}] boot: Loading modules'.format(_counter, time.time() - starttime)
+print '[{:03d}] [{:.8f}] boot: Loading random'.format(_counter, time.time() - starttime)
 _counter += 1
-import random, sys, hashlib
-print '[{:03d}] [{:.8f}] boot: Loading t-hash import'.format(_counter, time.time() - starttime)
+import random
+print '[{:03d}] [{:.8f}] boot: Loading sys'.format(_counter, time.time() - starttime)
 _counter += 1
+import sys
+print '[{:03d}] [{:.8f}] boot: Loading hashlib'.format(_counter, time.time() - starttime)
+_counter += 1
+import hashlib
+print '[{:03d}] [{:.8f}] boot: Loading urllib2'.format(_counter, time.time() - starttime)
+_counter += 1
+import urllib2
+print '[{:03d}] [{:.8f}] boot: Loading platform'.format(_counter, time.time() - starttime)
+_counter += 1
+import platform
+print '[{:03d}] [{:.8f}] boot: Checking platform'.format(_counter, time.time() - starttime)
+_counter += 1
+def iflinux():
+    if platform.system() == 'Linux':
+        return platform.dist()[0] + platform.dist()[1]
+    else:
+        return ''
+print '[{:03d}] [{:.8f}] platform: {}{} {} {}'.format(_counter, time.time() - starttime, platform.machine(), platform.processor(), platform.system(), iflinux())
+_counter += 1
+print '[{:03d}] [{:.8f}] boot: Setting up internet check'.format(_counter, time.time() - starttime)
+_counter += 1
+def check():
+    try:
+        urllib2.urlopen('http://216.58.192.142', timeout=1)
+        return True
+    except urllib2.URLError as err:
+        return False
+print '[{:03d}] [{:.8f}] boot: Checking internet connection'.format(_counter, time.time() - starttime)
+_counter += 1
+if check() == True:
+    _internet = True
+    print '[{:03d}] [{:.8f}] boot: Internet connection succeeded'.format(_counter, time.time() - starttime)
+    _counter += 1
+else:
+    _internet = False
+    print '[{:03d}] [{:.8f}] boot: Internet connection failed'.format(_counter, time.time() - starttime)
+    _counter += 1
 def itsh(i_s, i_key):
     #t-hash mini 1.2.0-pyos
     i_char = {' ': '169', '$': '157', '(': '144', ',': '156', '0': '140', '4': '160', '8': '180', '<': '149', '@': '142', 'D': '110', 'H':'138', 'L': '106', 'P': '167', 'T': '126', 'X': '195', '\\': '124', '`': '151', 'd': '159', 'h': '114', 'l': '119', 'p': '139', 't': '174', 'x': '103', '|': '138', '#': '192', "'": '186', '+': '163', '/': '176', '3': '191', '7': '100', ';': '191', '?': '115', 'C': '121', 'G': '154', 'K': '161', 'O': '172', 'S': '197', 'W': '162', '[': '182', '_': '114', 'c': '159', 'g': '101', 'k': '159', 'o': '134', 's': '121', 'w': '123', '{': '185', '"': '193', '&': '118', '*': '172', '.': '106', '2': '135', '6': '119', ':': '123', '>': '190', 'B': '114', 'F': '180', 'J': '119', 'N': '121', 'R': '119', 'V': '188', 'Z': '102', '^': '133', 'b': '105', 'f': '190', 'j': '113', 'n': '139', 'r': '162', 'v': '152', 'z': '181', '~': '185', '!': '118', '%': '121', ')': '137', '-': '99', '1': '158', '5': '147', '9': '161', '=': '109', 'A': '106', 'E': '179', 'I': '151', 'M': '195', 'Q': '111', 'U': '100', 'Y': '101', ']': '185', 'a': '174', 'e': '172', 'i': '154', 'm': '198', 'q': '145', 'u': '130', 'y': '170', '}':'148'}
