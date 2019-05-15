@@ -7,7 +7,7 @@ _counter = 3
 _version = '1.3.6'
 _release = '#26'
 _build = '93'
-_date = '05.06.19'
+_date = '05.15.19'
 print '[{:03d}] [{:.8f}] pyos {}.{} ({})'.format(_counter, time.time() - starttime, _version, _build, _date)
 _counter += 1
 print '[{:03d}] [{:.8f}] boot: Loading random'.format(_counter, time.time() - starttime)
