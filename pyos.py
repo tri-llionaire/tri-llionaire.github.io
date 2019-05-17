@@ -4,10 +4,10 @@ import time
 starttime = time.time()
 print '[002] [{:.08f}] boot: loading version'.format(time.time() - starttime)
 _counter = 3
-_version = '1.3.7'
-_release = '#26'
-_build = '106'
-_date = '05.16.19'
+_version = '1.4.0'
+_release = '#27'
+_build = '120'
+_date = '05.17.19'
 print '[{:03d}] [{:.8f}] pyos {}.{} ({})'.format(_counter, time.time() - starttime, _version, _build, _date)
 _counter += 1
 print '[{:03d}] [{:.8f}] boot: Loading random'.format(_counter, time.time() - starttime)
@@ -672,10 +672,10 @@ c_right = 0
 c_wrong = 0
 c_total = c_right + c_wrong
 c_ans = 'x'
-print '[{:03d}] [{:.8f}] boot: Loading countriesoftheworld 1.6.5'.format(_counter, time.time() - starttime)
+print '[{:03d}] [{:.8f}] boot: Loading countriesoftheworld 1.6.6'.format(_counter, time.time() - starttime)
 _counter += 1
 def cotw(c_countries, c_answers, c_versioning, c_build, c_date, c_right, c_wrong, c_total, c_ans):
-    print 'Welcome to LEARN.PY. Here you can learn the countries and capitals of the world! Type \'end\' to end the program. Type \'all\' to see the technical data for this program. Let\s get started.\n'
+    print 'Welcome to countriesoftheworld. Here you can learn the countries and capitals of the world! Type \'end\' to end the program. Type \'all\' to see the technical data for this program. Let\'s get started.\n'
     def c_get_key(c_val):
         for c_key, c_value in c_answers.items():
             if c_val == c_value:
@@ -784,8 +784,8 @@ if _user == 'root':
 else:
     _path = 'temp/'
     paths = ['temp/']
-cmdlist = ['start','exit','cd','md','ls','pd','cf','cl', 'help', 'cotw', 'scan', 'hash']
-convert = []
+cmdlist = ['start','exit','cd','md','ls','pd','cf','cl', 'help', 'cotw', 'scan', 'hash', 'cat', 'edit', 'del']
+filedict = {}
 waiting = 0
 added = []
 print '[{:03d}] [{:.08f}] {}: Ready'.format(_counter, time.time() - starttime, _path[:-1])
@@ -821,6 +821,12 @@ if entered == 'start':
                         waiting = 2
                     elif x == 'cf':
                         waiting = 3
+                    elif x == 'cat':
+                        waiting = 4
+                    elif x == 'edit':
+                        waiting = 5
+                    elif x == 'del':
+                        waiting = 6
                     elif x == 'start':
                         print 'already in pysh'
                     elif x == 'cotw':
@@ -830,7 +836,7 @@ if entered == 'start':
                     elif x == 'hash':
                         thsh(h_char, h_n)
                     elif x == 'help':
-                        print 'exit: exit pyos\ncd $: change directory to $\nmd $: create directory $\nls: list contents of current directory\npd: print working directory (useless)\ncf $: create file $\ncl: clear screen\nhelp: show this\ncotw: start countriesoftheworld\nscan: start utf8scan6\nhash: start hash converter'
+                        print 'exit: exit pyos\ncd $: change directory to $\nmd $: create directory $\nls: list contents of current directory\npd: print working directory (useless)\ncf $: create file $\ncat $: print contents of $\ndel $: delete file $\nedit $: edit file $\ncl: clear screen\nhelp: show this\ncotw: start countriesoftheworld\nscan: start utf8scan6\nhash: start hash converter'
                     elif x == 'cl':
                         sys.stdout.write('\x1b[2J\x1b[H')
                     else:
@@ -863,9 +869,32 @@ if entered == 'start':
                         paths.append(_path + x - '/')
                     else:
                         paths.append(_path + x)
+                    filedict[x] = ''
                     waiting = 0
+                elif waiting == 4:
+                    try:
+                        print filedict[x]
+                    except KeyError as err:
+                        print 'pyos: pysh: file {} doesn\'t exist'.format(x)
+                    waiting = 0
+                elif waiting == 5:
+                    e = raw_input(filedict[x])
+                    filedict[x] = filedict[x] + e
+                    waiting = 0
+                elif waiting == 6:
+                    del filedict[x]
+                    waiting = 0
+                    for j in paths:
+                        if x in j:
+                            paths.remove(j)
+                        else:
+                            pass
+                    if x in _path:
+                        _path = paths[0]
+                    else:
+                        pass
                 else:
                     print 'pyos: pysh: {} not found.'.format(x)
-                    break
+                    waiting = 0
 else:
     print 'pyos: {} not found'.format(entered)
