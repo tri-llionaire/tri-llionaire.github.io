@@ -6,7 +6,7 @@ print '[002] [{:.08f}] boot: loading version'.format(time.time() - starttime)
 _counter = 3
 _version = '1.4.0'
 _release = '#27'
-_build = '120'
+_build = '123'
 _date = '05.17.19'
 print '[{:03d}] [{:.8f}] pyos {}.{} ({})'.format(_counter, time.time() - starttime, _version, _build, _date)
 _counter += 1
