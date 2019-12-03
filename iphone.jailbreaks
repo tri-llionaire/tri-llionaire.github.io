@@ -1,0 +1,112 @@
+untethered: uses exploits that are powerful enough to allow the user to turn their device off and back on at will, with the device starting up completely, and the kernel will be patched without the help of a computer – in other words, it will be jailbroken even after each reboot.
+
+tethered: only able to temporarily jailbreak the device during a single boot. If the user turns the device off and then boots it back up without the help of a jailbreak tool, the device will no longer be running a patched kernel, and it may get stuck in a partially started state, such as Recovery Mode. In order for the device to start completely and with a patched kernel, it must be "re-jailbroken" with a computer (using the "boot tethered" feature of a tool) each time it is turned on. All changes to the files on the device (such as installed package files or edited system files) will persist between reboots, including changes that can only function if the device is jailbroken (such as installed package files).
+
+semi-tethered: where the device is able to start up on its own, but it will no longer have a patched kernel, and therefore will not be able to run modified code. It will, however, still be usable for normal functions, just like stock iOS. To start with a patched kernel, the user must start the device with the help of the jailbreak tool.
+
+semi-untethered: gives the ability to start the device on it's own. On first boot, the device will not be running a patched kernel. However, rather than having to run a tool from a computer to apply the kernel patches, the user is able to re-jailbreak their device with the help of an app (usually sideloaded using Cydia Impactor) running on their device.
+
+iOS JAILBREAKS
+VER TOOL-NAME-VERSION             iPhone
+1.0.0
+    AppTapp Installer 1.0           YES
+    iBrickr .5-.91                  YES
+    Liberty+ 1.3.0.113              YES
+    LIBTIFF                         YES
+1.0.1
+    AppTapp Installer 1.0           YES
+    iBrickr .5-.91                  YES
+    LIBTIFF                         YES
+1.0.2
+    AppTapp Installer 1.0           YES
+    iBrickr .6-.91                  YES
+    LIBTIFF                         YES
+1.1.0
+    LIBTIFF                         YES
+1.1.1
+    LIBTIFF                         YES
+1.1.2
+    OktoPrep-touchFree              YES
+1.1.3
+    iLiberty-Liberty+ 1.3.0.113     YES
+    SOFT UPGRADE                    YES
+    ZiPhone 3.0                     YES
+1.1.4
+    iLiberty-Liberty+ 1.3.0.113     YES
+    PwnageTool 1.1                  YES
+    ZiPhone 3.0                     YES
+1.1.5
+    iLiberty-Liberty+ 1.3.0.113     YES
+    ZiPhone 3.0                     YES
+
+2.0.0                               iPh 3G  3GS
+    PwnageTool 2.0-2.0.3            YES YES YES
+    QuickPwn RC3-2.2.5              YES NO  YES
+2.0.1
+    PwnageTool 2.0.2-2.0.3          YES YES YES
+    QuickPwn RC3-2.2.5              YES NO  YES
+2.0.2
+    PwnageTool 2.0.3                YES YES YES
+    QuickPwn RC3-2.2.5              YES NO  YES
+2.1.0
+    PwnageTool 2.1-2.2.5            YES YES YES
+    QuickPwn 2.1-2.2.5              YES NO  YES
+2.1.1
+    redsn0w Lite                    YES YES YES
+2.2.0
+    PwnageTool 2.2-2.2.5            YES YES YES
+    QuickPwn 2.2-2.2.5              YES NO  YES
+2.2.1
+    PwnageTool 2.2.1-2.2.5          YES YES YES
+    QuickPwn 2.2.1-2.2.5            YES NO  YES
+
+3.0.0                               iPh 3G  3GS
+    ipwndfu                         NO  NO  YES
+    purplera1n 1.0                  YES NO  YES
+    PwnageTool 3.0                  YES YES NO
+    redsn0w 0.8-0.9.3               YES YES YES
+3.0.1
+    ipwndfu                         NO  NO  YES
+    redsn0w	0.8-0.9.3               YES YES YES
+3.1.0
+    ipwndfu                         NO  NO  YES
+    blackra1n 1.0                   YES YES YES
+    PwnageTool 3.1-3.1.3            YES YES NO
+    redsn0w	0.9.2-0.9.3             YES YES YES
+3.1.1
+    blackra1n 1.0                   YES YES YES
+    PwnageTool 3.1                  YES YES NO
+    redsn0w	0.9.3                   YES YES YES
+3.1.2
+    ipwndfu                         NO  NO  YES
+    blackra1n 1.0                   YES YES YES
+    PwnageTool 3.1.4-3.1.5          YES YES YES
+    redsn0w	0.9.2-0.9.3             YES YES YES
+    sn0wbreeze Public Beta-2.9.14   NO  YES YES
+    Spirit 1.0                      NO  YES YES
+    Star (JailbreakMe 2.0)          YES YES YES
+3.1.3
+    ipwndfu                         NO  NO  YES
+    blackra1n 1.0                   YES YES YES
+    PwnageTool 3.1.5                YES YES YES
+    redsn0w	0.9.4                   YES YES YES
+    sn0wbreeze 1.5-2.9.14           NO  YES YES
+    Spirit 1.0                      NO  YES YES
+    Star (JailbreakMe 2.0)          YES YES YES
+3.2.0
+    sn0wbreeze ???-2.9.14           NO  YES YES
+    Spirit 1.0                      NO  YES YES
+    Star (JailbreakMe 2.0)          YES YES YES
+3.2.1
+    sn0wbreeze ???-2.9.14           NO  YES YES
+    Star (JailbreakMe 2.0)          YES YES YES
+3.2.2
+    greenpois0n	RC4                 NO  NO  YES
+    limera1n 1.0                    NO  NO  YES
+    PwnageTool 4.1-4.1.3            YES YES YES
+    redsn0w	0.9.6b2-0.9.11b4        YES YES YES
+    sn0wbreeze 2.1-2.9.14           NO  YES YES
+    Star (JailbreakMe 2.0)          YES YES YES
+
+4.0.0                               3G  3GS 4
+
