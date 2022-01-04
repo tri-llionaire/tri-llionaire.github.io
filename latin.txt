@@ -1,0 +1,265 @@
+genitive shows possession
+accusative direct object
+ablative used with prepositions
+nominative subject
+dative indirect object
+
+prep    case
+in      acc abl
+ex      abl
+ad      acc
+ob      acc
+cum     not acc
+
+                    nom     gen
+first declension: puella, puellae
+    sing    plur
+nom -a      -ae
+gen -ae     -arum
+dat -ae     -is
+acc -am     -as
+abl -a      -is
+
+second declension: amicus, amici (masc)
+    sing    plur
+nom -us     -i
+gen -i      -orum
+dat -o      -is
+acc -um     -os
+abl -o      -is
+
+second declension: bellum, bella (neu)
+    sing    plur
+nom -um     -a
+gen -i      -orum
+dat -o      -is
+acc -um     -a
+abl -o      -is
+
+third declension: lex, legis
+    sing    plur
+nom -x/er   -es
+gen -is     -um
+dat -i      -ibus
+acc -em     -es
+abl -e      -ibus
+
+fourth declension: masc/fem
+    sing    plur
+nom -us     -us
+gen -us     -uum
+dat -ui     -ibus
+acc -um     -us
+abl -u      -ibus
+
+fourth declension: neu
+    sing    plur
+nom -u      -ua
+gen -us     -uum
+dat -u      -ibus
+acc -u      -ua
+abl -u      -ibus
+
+fifth declension: fem
+nom -es     -es
+gen -ei     -ei
+dat -ei     -ebus
+acc -em     -es
+abl -e      -ebus
+
+first conjugation: amo, amare
+    sing    plur
+1st -o/am   -amus
+2nd -as     -atis
+3rd -at     -ant
+
+second conjugation: moneo, monere
+    sing    plur
+1st -eo     -emus
+2nd -es     -etis
+3rd -et     -ent
+
+third conjugation: ago, agere
+    sing    plur
+1st -o      -imus
+2nd -is     -itis
+3rd -it     -unt
+                audio, audire
+    sing    plur (keep the i before other endings)
+1st -io     -imus
+2nd -is     -itis
+3rd -it     -iunt
+
+imperfect conjugation:
+    sing    plur
+1st -bam    -bamus
+2nd -bas    -batis
+3rd -bat    -bant
+
+future conjugation:
+    sing    plur
+1st -bo     -bimus
+2nd -bis    -bitis
+3rd -bit    -bunt
+
+perfect tense:
+    sing    plur
+1st -i      -imus
+2nd -isti   -istis
+3rd -it     -erunt
+
+pluperfect tense:
+    sing    plur
+1st -eram   -eramus
+2nd -eras   -eratis
+3rd -erat   -erant
+
+future perfect tense:
+    sing    plur
+1st -ero    -erimus
+2nd -eris   -eritis
+3rd -erit   -erint
+
+adverbs:
+formed from adjectives:
+first two declensions: drop -s, -a, -um and add -e
+third declension: drop -is and add -iter
+
+comparative adjectives:
+drop ending, add -ior for masc/fem and -ius for neuter
+
+superlative adjectives:
+drop ending, add -issimus, -issima, or -issimum
+
+personal pronouns:
+    I       We
+nom ego     nos
+gen mei     nostri/um
+dat mihi    nobis
+acc me      nos
+abl me      nobis
+    You     Yous
+nom tu      vos
+gen tui     vestri/um
+dat tibi    vobis
+acc te      vos
+abl te      vobis
+    He      She     It
+nom is      ea      id
+gen eius    eius    eius
+dat ei      ei      ei
+acc eum     eam     id
+abl eo      ea      eo
+    Hes     Shes    They
+nom ei      eae     ea
+gen eorum   earum   eorum
+dat eis     eis     eis
+acc eos     eas     ea
+abl eis     eis     eis
+
+possessive pronouns:
+    1st     2nd     3rd
+nom meus    meae    meum
+gen mei     meae    mei
+dat meo     meae    meo
+acc meum    meam    meum
+abl meo     mea     meo
+    Plur
+nom mei     meae    mea
+gen meorum  mearum  meorum
+dat meis    meis    meis
+acc meos    meas    mea
+abl meis    meis    meis
+
+reflexive pronouns:
+    1st     2nd     3rd
+gen mei     tui     sui
+dat mihi    tibi    sibi
+acc me      te      se
+abl me      te      se
+    Plur
+gen nostri  vestri  sui
+dat nobis   vobis   sibi
+acc nos     vos     se
+abl nobis   vobis   se
+
+relative pronouns:
+    Masc    Fem     Neu
+nom qui     quae    quod
+gen cuius   cuius   cuius
+dat cui     cui     cui
+acc quem    quam    quod
+abl quo     qua     quo
+    Plur
+nom qui     quae    quae
+gen quorum  quarum  quorum
+dat quibus  quibus  quibus
+acc quos    quas    quae
+abl quibus  quibus  quibus
+
+demonstrative pronouns:
+    Masc    Fem     Neu
+nom hic     haec    hoc
+gen huius   huius   huius
+dat huic    huic    huic
+acc hunc    hanc    hoc
+abl hoc     hac     hoc
+    Plur
+nom hi      hae     haec
+gen horum   harum   horum
+dat his     his     his
+acc hos     has     haec
+abl his     his     his
+    Masc    Fem     Neu
+nom ille    illa    illud
+gen illius  illius  illius
+dat illi    illi    illi
+acc illium  illam   illud
+abl illo    illa    illo
+    Plur
+nom illi    illae   illa
+gen illorum illarum illorum
+dat illis   illis   illis
+acc illos   illas   illa
+abl illis   illis   illis
+
+to be:
+    sing    plur
+present
+1st sum     sumus
+2nd es      estis
+3rd est     sunt
+imperfect
+1st eram    eramus
+2nd eras    eratis
+3rd erat    erant
+future
+1st ero     erimus
+2nd eris    eritis
+3rd erit    erunt
+perfect
+1st fui     fuimus
+2nd fuisti  fuistis
+3rd fuit    fuerunt
+pluperfect
+1st fueram  fueramus
+2nd fueras  fueratis
+3rd fuerat  fuerant
+
+irregular verbs: posse, velle, nolle, ire
+possum potes potest possumus potestis possunt
+volo vis vult volumus vultis volunt
+nolo non vis non vult nolumus non vultis nolunt
+eo is it imus itis eunt
+
+unus duo tres quattuor quinque sex septem octo novem decem
+undecim duodecim tredecim quattuordecim quindecim sedecim
+septendecim duodeviginti undeviginti viginti
+
+heri/hodie/cras
+
+sim sis sit simus sitis sint
+monear monearis moneatur moneamur moneamini moneantur
+duxerim duxeris duxerit duxerimus duxeritis duxerint
+audirer audireris audiretur audiremur audiremini audirentur
+amavissem amavisses amavisset amavissemus amavissetis amavissent
