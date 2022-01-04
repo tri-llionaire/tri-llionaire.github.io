@@ -1,0 +1,93 @@
+MAE
+mechanical ability eater
+TODO LATER
+threefold repetition
+50move rule
+insufficient material
+pgn
+fen
+uci support
+TODO NOW
+need consistent ply checking system (mae.think(ply) where ply is depth)
+doesn't support castling and enpassant
+have to update info system
+extend on possiblemoves parameter idea for other areas
+current big bug: for some reason mae is sending null moves to board.execute()
+INFO
+mae f5 is 615 lines and 56,190B (54.8KB)
+defn.generate():
+    ITERATEx64
+    ITERATEx16
+defn.clean():
+    ITERATEx16ish
+        ITERATEx2ish
+    ITERATEx30ish
+        defn.check()
+defn.check():
+    COMPARISONS(x16)
+        defn.generate()
+        ITERATEx30ish
+mae.count():
+    ITERATEx64
+mae.move(): somewhere around 2.5-3.5mil calculations (avg of about 3mil)
+    defn.generate() 82
+    defn.clean() ~53760+32
+    ITERATEx30ish
+        board.execute()
+            defn.generate() 82*30=2460
+            defn.clean() (~53760+32)*30=1613760
+        mae.count() 64
+        defn.check() ~53760*30=1612800
+    SOMETIMES
+        ITERATEx30ish
+            defn.check() ~53760*30=1612800 (doesn't count)
+100k:1 calcs per node for 30n average
+so technically for each average mae.move() even while it's achieving 9nps it's actually getting around 900kcps
+LOG
+mae: (number part)
+b1 A1: basic random choosing of moves
+b2 B2: basic capturing if option, otherwise random
+b3 C3: added support to send evaluations to main, fixed variable misnomers, changed mae.count() to use board.execute() instead of board.is_incheck()-style movement
+b4 D4: added some basic statistic gathering, made sure capturing is working
+b5 F5: added the ability to see if the piece will be captured next move in mae.move() using a modified defn.check(), fixed a bug with blocking checks
+b6 G6: added full 2ply support
+main/board/defn system: (letter part)
+b1 A1: basic board without some features like insufficient material draws
+b2 B2: added support for implementation of engine and playing different sides
+b3 C3: uncondensed some areas, removed material counter and added live evaluation support
+b4 D4: added support for boardless play, fixed variable misnomers, added better evaluation display, changed board.is_incheck() system to a single board.check() program, fixed castling
+b5 E5: removed deepcopying of dictionaries and instead merged moves earlier in the process for simplicity
+b6 F5: added support for defn.check() using the piece parameter, fixed bug with pawn capturing, condensed defn.clean() and defn.check() a little
+b7 G6: added possiblemoves parameter to board.execute() that insanely reduces thinking time
+
+LOU
+lousy opponent ursuper
+PROBLEMS
+none that I know of
+LOG
+b3 defeated a2 989-6-5 (992/1000)
+lou: (number part)
+b1 A1: basic 1ply engine modified from mae f5
+b2 A2: fixed bugs and added smaller features
+b3 B3: full 2ply, removed some eval features causing confusion
+b4 C4: condensed and made slighty faster, removed inefficiencies
+main/board system (letter part)
+b1 A1: basic board rewritten from mae f5 system with some modifications
+b2 B3: added automatic draw after 200 plies, added support for quick bot matches of n length
+b3 C4: greatly increased effectiveness of board.generate() by using more loops
+
+maybe put lou and mae all into the same file
+
+possiblities after a3b4
+OPPO  OKAY MOVES
+b6c5: [b4a5, b2a3]
+b6a5: [e3d4, e3f4, g3f4, g3h4, b2a3]
+d6e5: [b4a5, e3d4, e3f4, g3h4, b2a3]
+d6c5: [b4a5, b4c5d6, b2a3]
+f6g5: [b4a5, c3d4, e3d4, g3f4, g3h4, b2a3]
+f6e5: [b4a5, e3d4, e3f4, g3h4, b2a3]
+h6g5: [b4a5, c3d4, e3d4, g3f4, g3h4, b2a3]
+so maybe choose the firstmove with the occurrences in final
+
+lou school a3 golfed version
+louSa3G3 is 4266bytes UTF-8 (4KB-170B) 129 lines
