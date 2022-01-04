@@ -1,0 +1,274 @@
+/* multi-line comment */
+public class Main {                             //class name has to be the same as file name
+    public static void main(String[] args) {      //has to include function called main
+        System.out.println("Hello World"); } }      //java is case sensitive and doesn't care about formatting
+int myNum = 5;              //you can do 'int myNum; myNum = 5;' if you want
+float myFloatNum = 5.99f;   //don't forget f
+char myLetter = 'D';        //has to use '
+boolean myBool = true;      //lowercase
+String myText = "Hello";    //has to use "
+final String myText;        //makes myTest immutable
+int x = 5, y = 6, z = 50;       //declare multiple integers on one line
+System.out.println(x + y + z);  //output result of all added
+Names can contain letters, digits, underscores, and dollar signs; they must begin with a lowercase letter or $ or _
+NON-PRIMITIVE DATA TYPES: strings, arrays, classes
+PRIMITIVE DATA TYPES
+byte	    1 byte	    whole numbers from -128 to 127
+short	    2 bytes	    whole numbers from -32,768 to 32,767
+int	        4 bytes	    whole numbers from -2,147,483,648 to 2,147,483,647
+long	    8 bytes	    whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float	    4 bytes	    fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double	    8 bytes 	fractional numbers. Sufficient for storing 15 decimal digits
+boolean	    1 bit	    true or false
+char	    2 bytes	    single character/letter or ASCII values
+long myNum = 15000000000L;  //don't forget L
+double myNum = 19.99d;      //don't forget d
+float f1 = 35e3f;           //can use E/e in float and double for scientific notation
+widening casting: byte -> short -> char -> int -> long -> float -> double
+narrowing casting: double -> float -> long -> int -> char -> short -> byte
+float myFloat = 9.78;       //you can change a type from one to another
+int myInt = (int) myFloat;  //if you're narrowing byte size you have to do this
+double myDouble = myFloat   //but if you're going up it's automatic (vs manual)
+ARITHMETIC OPERATORS
++	Addition	    Adds together two values	            x + y
+-	Subtraction	    Subtracts one value from another	    x - y
+*	Multiplication	Multiplies two values	                x * y
+/	Division	    Divides one value by another	        x / y
+%	Modulus	        Returns the division remainder	        x % y
+++	Increment	    Increases the value of a variable by 1  ++x
+--	Decrement	    Decreases the value of a variable by 1	--x
+ASSIGNMENT OPERATORS
+x = 5	x = 5
+x += 3	x = x + 3
+x -= 3	x = x - 3
+x *= 3	x = x * 3
+x /= 3	x = x / 3
+x %= 3	x = x % 3
+x &= 3	x = x & 3
+x |= 3	x = x | 3
+x ^= 3	x = x ^ 3
+x >>= 3	x = x >> 3
+x <<= 3	x = x << 3
+COMPARISON OPERATORS
+==	Equal to
+!=	Not equal
+>	Greater than
+<	Less than
+>=	Greater than or equal to
+<=	Less than or equal to
+LOGICAL OPERATORS
+&&	and
+|| 	or
+!	not
+Concatenation is supported (also can use firstName.concat(lastName) which sticks in a space)
+Use backslash in strings like \', \", and \\
+Adding a number and a string just returns a string
+ESCAPE CODES
+\n	New Line
+\r	Carriage Return
+\t	Tab
+\b	Backspace
+\f	Form Feed
+STRING METHODS
+charAt()	            Returns the character at the specified index (position)
+codePointAt()	        Returns the Unicode of the character at the specified index
+codePointBefore()	    Returns the Unicode of the character before the specified index
+codePointCount()	    Returns the Unicode in the specified text range of this String
+compareTo()	            Compares two strings lexicographically
+compareToIgnoreCase()	Compares two strings lexicographically, ignoring case differences
+concat()	            Appends a string to the end of another string
+contains()	            Checks whether a string contains a sequence of characters
+contentEquals()	        Checks whether a string contains the exact same sequence of characters of the specified CharSequence or StringBuffer
+copyValueOf()	        Returns a String that represents the characters of the character array
+endsWith()	            Checks whether a string ends with the specified character(s)
+equals()	            Compares two strings. Returns true if the strings are equal, and false if not
+equalsIgnoreCase()	    Compares two strings, ignoring case considerations
+format()	            Returns a formatted string using the specified locale, format string, and arguments
+getBytes()	            Encodes this String into a sequence of bytes using the named charset, storing the result into a new byte array
+getChars()	            Copies characters from a string to an array of chars
+hashCode()	            Returns the hash code of a string
+indexOf()	            Returns the position of the first found occurrence of specified characters in a string
+intern()	            Returns the canonical representation for the string object
+isEmpty()	            Checks whether a string is empty or not
+lastIndexOf()	        Returns the position of the last found occurrence of specified characters in a string
+length()	            Returns the length of a specified string
+matches()	            Searches a string for a match against a regular expression, and returns the matches
+offsetByCodePoints()	Returns the index within this String that is offset from the given index by codePointOffset code points
+regionMatches()	        Tests if two string regions are equal
+replace()	            Searches a string for a specified value, and returns a new string where the specified values are replaced
+replaceFirst()	        Replaces the first occurrence of a substring that matches the given regular expression with the given replacement
+replaceAll()	        Replaces each substring of this string that matches the given regular expression with the given replacement
+split()	                Splits a string into an array of substrings
+startsWith()	        Checks whether a string starts with specified characters
+subSequence()	        Returns a new character sequence that is a subsequence of this sequence
+substring()	            Extracts the characters from a string, beginning at a specified start position, and through the specified number of character
+toCharArray()	        Converts this string to a new character array
+toLowerCase()	        Converts a string to lower case letters
+toString()	            Returns the value of a String object
+toUpperCase()	        Converts a string to upper case letters
+trim()	                Removes whitespace from both ends of a string
+valueOf()	            Returns the string representation of the specified value
+MATH METHODS
+abs(x)	        Returns the absolute value of x
+acos(x)	        Returns the arccosine of x, in radians
+asin(x)	        Returns the arcsine of x, in radians
+atan(x)	        Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+atan2(y,x)	    Returns the angle theta from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).
+cbrt(x)	        Returns the cube root of x
+ceil(x)	        Returns the value of x rounded up to its nearest integer
+copySign(x, y)	Returns the first floating point x with the sign of the second floating point y
+cos(x)	        Returns the cosine of x (x is in radians)
+cosh(x)	        Returns the hyperbolic cosine of a double value
+exp(x)	        Returns the value of e to the power of x
+floor(x)	    Returns the value of x rounded down to its nearest integer
+getExponent(x)	Returns the unbiased exponent used in x
+hypot(x, y)	    Returns sqrt(x to the power of 2 + y to the power of 2) without intermediate overflow or underflow
+log(x)	        Returns the natural logarithm (base e) of x
+log10(x)	    Returns the base 10 logarithm of x
+max(x, y)	    Returns the number with the highest value
+min(x, y)	    Returns the number with the lowest value
+nextAfter(x, y)	Returns the floating point number adjacent to x in the direction of y
+nextUp(x)	    Returns the floating point value adjacent to x in the direction of positive infinity
+pow(x, y)	    Returns the value of x to the power of y
+random()	    Returns a random number between 0 and 1
+round(x)    	Returns the value of x rounded to its nearest integer
+rint()	        Returns the double value that is closest to x and equal to a mathematical integer
+signum(x)	    Returns the sign of x
+sin(x)	        Returns the sine of x (x is in radians)
+sinh(x)	        Returns the hyperbolic sine of a double value
+sqrt(x)	        Returns the square root of x
+tan(x)	        Returns the tangent of an angle
+tanh(x)	        Returns the hyperbolic tangent of a double value
+toDegrees(x)	Converts an angle measured in radians to an approx. equivalent angle measured in degrees
+toRadians(x)	Converts an angle measured in degrees to an approx. angle measured in radians
+ulp(x)	        Returns the size of the unit of least precision of x
+KEYWORDS
+abstract	    A non-access modifier. Used for classes and methods: An abstract class cannot be used to create objects (to access it, it must be inherited from another class). An abstract method can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from)
+assert	        For debugging
+boolean	        A data type that can only store true and false values
+break	        Breaks out of a loop or a switch block
+byte	        A data type that can store whole numbers from -128 and 127
+case	        Marks a block of code in switch statements
+catch	        Catches exceptions generated by try statements
+char	        A data type that is used to store a single character
+class	        Defines a class
+continue	    Continues to the next iteration of a loop
+const	        Defines a constant. Not in use - use final instead
+default	        Specifies the default block of code in a switch statement
+do	            Used together with while to create a do-while loop
+double	        A data type that can store whole numbers from 1.7e−308 to 1.7e+308
+else	        Used in conditional statements
+enum	        Declares an enumerated (unchangeable) type
+exports	        Exports a package with a module. New in Java 9
+extends	        Extends a class (indicates that a class is inherited from another class)
+final	        A non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override)
+finally	        Used with exceptions, a block of code that will be executed no matter if there is an exception or not
+float	        A data type that can store whole numbers from 3.4e−038 to 3.4e+038
+for	            Create a for loop
+goto	        Not in use, and has no function
+if	            Makes a conditional statement
+implements	    Implements an interface
+import	        Used to import a package, class or interface
+instanceof	    Checks whether an object is an instance of a specific class or an interface
+int	            A data type that can store whole numbers from -2147483648 to 2147483647
+interface	    Used to declare a special type of class that only contains abstract methods
+long	        A data type that can store whole numbers from -9223372036854775808 to 9223372036854775808
+module	        Declares a module. New in Java 9
+native	        Specifies that a method is not implemented in the same Java source file (but in another language)
+new	            Creates new objects
+package	        Declares a package
+private	        An access modifier used for attributes, methods and constructors, making them only accessible within the declared class
+protected	    An access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses
+public	        An access modifier used for classes, attributes, methods and constructors, making them accessible by any other class
+requires	    Specifies required libraries inside a module. New in Java 9
+return	        Finished the execution of a method, and can be used to return a value from a method
+short	        A data type that can store whole numbers from -32768 to 32767
+static	        A non-access modifier used for methods and attributes. Static methods/attributes can be accessed without creating an object of a class
+strictfp	    Restrict the precision and rounding of floating point calculations
+super	        Refers to superclass (parent) objects
+switch	        Selects one of many code blocks to be executed
+synchronized	A non-access modifier, which specifies that methods can only be accessed by one thread at a time
+this	        Refers to the current object in a method or constructor
+throw	        Creates a custom error
+throws	        Indicates what exceptions may be thrown by a method
+transient	    A non-accesss modifier, which specifies that an attribute is not part of an object's persistent state
+try	            Creates a try...catch statement
+var	            Declares a variable. New in Java 10
+void	        Specifies that a method should not have a return value
+volatile	    Indicates that an attribute is not cached thread-locally, and is always read from the "main memory"
+while	        Creates a while loop
++ true, false, null
+CONDITIONALS
+if (condition1) {
+    // execute
+} else if (condition2) {
+    // execute
+} else {
+    // execute }
+TERNARY OPERATOR
+variable name = (condition) ? executeIfExpressionTrue :  executeIfExpressionFalse;
+SWITCH
+switch(expression) {
+  case x:
+    // execute
+    break;
+  case y:
+    // execute
+    break;
+  default:
+    // execute }
+WHILE LOOP
+while (condition) {
+    // execute }
+do {
+    // execute }    //does the code block first, then does a while loop of it
+while (condition);
+FOR LOOP
+for (statement 1; statement 2; statement 3) {
+    // code block to be executed }
+Statement 1 is executed (one time) before the execution of the code block.
+Statement 2 defines the condition for executing the code block.
+Statement 3 is executed (every time) after the code block has been executed.
+For example: (int i = 0; i < 5; i++)
+for (type variableName : arrayName) {
+    // code block to be executed }
+Basically meaning for variable of type in array
+break kills a loop, continue skips that iteration but then goes back to it
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};  //defines an array with string values called cars
+Access values in array with cars[indexnumber], and also modify same way
+Use .length to get length of array
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };    //multidimensional array
+int x = myNumbers[1][2];                            //outputs 7
+public class Main { static void myMethod(String name) { } }    //basically a def myMethod(): in python
+Can also use return in user-defined methods
+void means no data is being returned, while int, string, etc mean there is
+You can use the same method name multiple times with different parameters for simplicity
+You can call a method from inside the method (recursion)
+class: Fruit
+objects: Apple, Banana, Mango
+Main.java
+public class Main {
+  int x = 5;
+}
+Second.java
+class Second {
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+Created an object to reference another file; you can also modify myObj.x now and it'll change in Main unless it's final
+Set a method to static to make it callable; public is for use for objects and can be called with myObj.method(parameter)
+public class Main {
+  int x;
+
+  public Main(int y) {
+    x = y;
+  }
+
+  public static void main(String[] args) {
+    Main myObj = new Main(5);
+    System.out.println(myObj.x);
+  }
+}
+Can use a constructor to initialize values
