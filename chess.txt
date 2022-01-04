@@ -1,0 +1,155 @@
+1.e4 e5 King's Pawn Opening
+    2.Nf3 Open Game
+        2...Nc6 :Open Game
+            3.Bb5 Ruy Lopez -> :Berlin Defense
+            3.Bc4 Italian Game
+            3.d4 Scotch Game
+            3.Nc3 Three Knights Game
+            3.c3 Ponziani Opening
+        2...Nf6 Petrov Defense
+            3.Nxe5 Classical Variation
+            3.Nc3 +Four Knights Game
+            3.d4 Steinitz Variation
+            3.Bc4 +Two Knights Defense
+        2...d6 Philidor's Defense
+        2...f5 Latvian Gambit
+        2...d5 Elephant Gambit
+    2.Bc4 Bishop's Opening
+        2...Nf6 :Berlin Defense
+            3.d3 Kuijper Game
+            3.Nf3 +Petrov Defense
+            3.d4 Mellema Attack
+            3.Nc3 +Falkbeer Defense
+        2...Nc6 :Bishop's Opening
+            3.Nf3 +Italian Game
+            3.Nc3 +Vienna Game
+            3.d3 Giuoco Pianissimo
+            3.Qh5 +Parham Attack
+        2...Bc5 Classical Defense
+        2...f5 Calabrese Countergambit
+        2...c6 Philidor Counterattack
+    2.Nc3 Vienna Game
+        2...Nf6 Falkbeer Defense
+            3.Bc4 :Falkbeer Defense
+            3.Nf3 +Petrov Defense
+        2...Nc6 Max Lange Defense
+            3.Nf3 +Three Knights Game
+            3.f4 Vienna Gambit
+        2...Bb4 Zhuravlev Countergambit
+    2.d4 Center Game
+        2...exd4 :Center Game
+            3.c3 Danish Gambit
+        2...Nc6 +Nimzovich Defense
+        2...Nf6 +Petrov Defense
+    2.f4 King's Gambit
+    2.Qh5 Parham Attack
+    2.Qf3 Napoleon Opening
+    2.Ne2 Alapin Opening
+    2.c3 Lopez Opening
+    2.Bb5 Portuguese Opening
+
+1.e4 e6 French Defense
+    2.d4 Line
+        2...d5 Line
+            3.Nc3 Line
+            3.Nd2 Tarrasch Variation
+            3.e5 Advance Variation
+            3.exd5 Exchange Variation
+        2...c5 Franco-Benoni Defense
+        2...f5 Kingston Defense
+        2...Nf6 Mediterranean Defense
+    2.d3 Barcza System
+    2.e5 Rubinstein Variation
+    2.Nf3 Two Knights Variation
+    2.Nc3 +French Defense
+    
+1.e4 c5 Sicilian Defense
+    2.Nf3 Open Sicilian
+        2...d6 Line
+            3.d4 Line -> Najdorf Sicilian
+            3.Bb5+ Moscow Variation
+            3.c3 +Alapin Variation
+        2...Nc6 Line
+            3.d4 Line
+            3.Bb5 Rossolimo Variation
+            3.Nc3 Taimanov Variation
+        2...e6 Line
+            3.Nc3 +Closed Sicilian
+            3.d4 Scheveningen Variation
+        2...a6 O'Kelly Variation
+        2...g6 HyperAccelerated Dragon
+        2...Nf6 Nimzowitsch Variation
+        2...b6 Katalimov Variation
+    2.Nc3 Closed Sicilian
+    2.c4 Staunton-Cochrane Variation
+    2.d4 Smith-Morra Gambit
+    2.c3 Alapin Variation
+    2.b4 Sicilian Wing Gambit
+    2.a3 Mengarini Variation
+    2.f4 McDonnell Attack
+
+1.e4 Nc6 Nimzowitsch Defense
+    2.d4 Line
+        2...d5 Line
+        2...e5 +Scotch Game
+    2.Nf3 +Open Game
+
+1.e4 c6 Caro-Kann Defense
+    2.d4 Line
+        2...d5 Line
+            3.Nc3 Classical Variation
+            3.Nd2 Tarrasch Variation
+            3.exd5 Exchange Variation
+            3.e5 Advance Variation
+            3.f3 Tartakower Variation
+    2.c4 Anti-Caro-Kann Variation
+    2.Nf3 Fischer Variation
+    2.d3 Breyer Variation
+
+1.d4 d5 Closed Game
+    2.c4 Queen's Gambit
+        2...dxc4 Queen's Gambit Accepted
+            3.Nf3 Classical Variation
+            3.e4 Central Variation
+        2...e6 Queen's Gambit Declined
+            3.Nc3 Tarrasch Defense
+            3.g3 +Catalan System
+            3.cxd5 Exchange Variation
+            3.Nf3 Line
+            3.e3 Line
+        2...c6 Slav Defense
+            3.Nf3 Line -> Semi-Slav Defense
+            3.Nc3 Line
+            3.cxd5 Exchange Variation
+        2...Nc6 Chigorin Defense
+        2...Nf6 Marshall Defense
+        2...Bf5 Baltic Defense
+    2.Nf3 Queen's Pawn Game
+        2...Nf6 Line
+            3.c4 +Queen's Gambit
+            3.e3 Colle System
+            3.Bf4 London System
+            3.Bg5 Torre Attack
+        2...c5 Krause Variation
+    2.Bg5 Levitsky Attack
+    2.Bf4 Mason Variation
+    2.Nc3 Chigorin Variation
+    2.e4 Blackmar-Diemer Gambit
+
+1.d4 Nf6 Indian Defense
+    2.c4 Line
+        2...e6 Queen's Indian Defense
+            3.Nf3 Line
+            3.Nc3 Nimzo-Indian Defense
+            3.g3 Catalan System
+            3.Bg5 Neo-Indian Attack
+        2...c5 Benoni Defense
+        2...g6 King's Indian Defense
+            3.Nc3 Line
+            3.Nf3 Grunfield Defense
+        2...d6 Old Indian Defense
+        2...Nf6 Marshall Defense
+
+1.c4 English Opening
+
+1.Nf3 Zukertort Opening
